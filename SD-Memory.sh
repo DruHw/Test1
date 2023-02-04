@@ -1,5 +1,5 @@
 #!/bin/bash
-MY_DIRECTORIES="/home /var/log /etc"
+MY_DIRECTORIES="/home /var/log /etc"   #Объявляем переменную MY_DIRECTORIES и в ковычках пишем нужные нам директории 
 echo "10 директорий"
 for DIR in $MY_DIRECTORIES
 do
